@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="All Test Suite">
+    <test verbose="1" preserve-order="true" name="/Users/pkraju27/Golu/Java-Selenium/sellmvn/src">
+
+        <groups>
+            <run>
+                <include name="Purchase"/>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="org.selpractice.tests.submitOrderTest">
+                <methods>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

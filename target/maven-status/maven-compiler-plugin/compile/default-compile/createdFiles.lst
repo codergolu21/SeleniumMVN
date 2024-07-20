@@ -1,0 +1,8 @@
+org/selpractice/testcomponent/ConfirmationPage.class
+org/selpractice/testcomponent/ProductCatalogue.class
+org/selpractice/testcomponent/LandingPage.class
+org/selpractice/testcomponent/CartPage.class
+org/selpractice/testcomponent/CheckoutPage.class
+resources/ExtentReporterNG.class
+org/selpractice/testcomponent/OrderPage.class
+org/selpractice/testcomponent/AbstractComponent.class
