@@ -5,7 +5,7 @@
         <listener class-name="org.selpractice.tests.Listeners"/>
     </listeners>
     <test verbose="2" preserve-order="true"
-          name="/Users/pkraju27/Golu/Java-Selenium/sellmvn/src/test/java/org/selpractice/tests">
+          name="/Users/pkraju27/SeleniumMVN/src">
         <classes>
             <class name="org.selpractice.tests.ErrorValidation">
                 <methods>
