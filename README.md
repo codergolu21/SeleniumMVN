@@ -1,2 +1,2 @@
 # SeleniumMVN
-Golu's 1st Test Selenium 
+Golu's 1st Test Selenium Project
