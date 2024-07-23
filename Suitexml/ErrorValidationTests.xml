@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="All Test Suite">
+    <test verbose="1" preserve-order="true" name="/Users/pkraju27/SeleniumMVN/src">
+
+        <groups>
+            <run>
+                <include name="ErrorHandling"/>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="org.selpractice.tests.ErrorValidation">
+                <methods>
+                    <include name="loginErrorValidation"/>
+                    <include name="productErrorValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

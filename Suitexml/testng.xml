@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="true">
+    <listeners>
+        <listener class-name="org.selpractice.tests.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/Users/pkraju27/SeleniumMVN/src">
+        <classes>
+            <class name="org.selpractice.tests.ErrorValidation">
+                <methods>
+                    <include name="loginErrorValidation"/>
+                </methods>
+            </class>
+<!--            <class name="org.selpractice.tests.submitOrderTest">-->
+<!--                <methods>-->
+<!--                    <include name="submitOrder"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
